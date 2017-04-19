@@ -1,0 +1,44 @@
+{
+  "name": "west-php/registry",
+  "type": "library",
+  "description": "PSR-11 container implementation",
+  "keywords": [
+    "psr-11",
+    "container",
+    "registry",
+    "service-manager"
+  ],
+  "homepage": "https://github.com/west-php/registry",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christopher Evans <c.m.evans@gmx.co.uk>"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "psr/container": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "West\\Registry\\": "src/"
+    }
+  },
+  "provide": {},
+  "require-dev": {
+    "phpunit/phpunit": "^6.1.0",
+    "phpmetrics/phpmetrics": "^2.0.0",
+    "phpbench/phpbench": "^1.0@dev"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "West\\Registry\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --coverage-html ./coverage/html --log-junit ./coverage/junit.xml",
+    "docs": "doxygen ./Doxyfile",
+    "metrics": "phpmetrics --report-html=./metrics --junit=./coverage/junit.xml ./src",
+    "benchmark": "phpbench run --report=all --output=html_output"
+  }
+}
