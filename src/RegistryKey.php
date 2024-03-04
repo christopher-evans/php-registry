@@ -2,7 +2,7 @@
 /*
  * This file is part of the West\\Registry package
  *
- * (c) Chris Evans <c.m.evans@gmx.co.uk>
+ * (c) Chris Evans <cvns.github@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,7 +13,7 @@ namespace West\Registry;
  * @brief %Registry key wrapper.
  *
  * @see RegistryKeyInterface
- * @author Christopher Evans <c.m.evans@gmx.co.uk>
+ * @author Christopher Evans <cvns.github@gmail.com>
  * @date 19 April 2017
  */
 final class RegistryKey implements RegistryKeyInterface

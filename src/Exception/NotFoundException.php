@@ -2,7 +2,7 @@
 /*
  * This file is part of the West\\Registry package
  *
- * (c) Chris Evans <c.m.evans@gmx.co.uk>
+ * (c) Chris Evans <cvns.github@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -20,7 +20,7 @@ use OutOfBoundsException;
  * and does not define any functionality beyond that of
  * %OutOfBoundsException.
  *
- * @author Christopher Evans <c.m.evans@gmx.co.uk>
+ * @author Christopher Evans <cvns.github@gmail.com>
  *
  * @see http://php.net/manual/en/class.outofboundsexception.php %OutOfBoundsException
  *
